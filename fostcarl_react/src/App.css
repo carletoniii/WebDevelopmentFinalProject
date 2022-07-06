@@ -1,0 +1,79 @@
+body {
+  background-color: darkslategrey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: cornsilk;
+  margin: auto;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  color: goldenrod;
+}
+
+.App-footer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: x-small;
+  color: goldenrod;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+
+.App-link {
+  color: darkgoldenrod;
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: rgb(34, 58, 58)}
+
+tr:hover {background-color: rgb(210, 226, 164);}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(22, 37, 37);
+  color: white;
+}
+
+.App-button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(22, 37, 37);
+  box-shadow: 2px 2px cornsilk;
+  padding: 5px 10px;
+  color:cornsilk;
+  border: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.App-text-input {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: darkslategray;
+  padding: 5px 10px;
+  border-style: solid;
+  border-color: cornsilk;
+  color: cornsilk;
+}
